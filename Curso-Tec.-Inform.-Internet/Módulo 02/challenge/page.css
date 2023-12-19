@@ -1,0 +1,7 @@
+p{ font-family: Baskerville Old Face;  text-align: left; -webkit-text-stroke: 0.3px black ;color:rgb(255, 255, 255);font-size:30px; margin-right: 45%; margin-left: 5%;}
+h1{-webkit-text-stroke: 1px rgb(11, 2, 134); text-align: center ;font-size: 60px; color: rgb(255, 255, 255);}
+h2{-webkit-text-stroke: 1px rgb(0, 28, 151); ; margin-left: 10%; font-size: 40px; color: rgb(0, 174, 255);}
+.bold-S{-webkit-text-stroke: 0px;; margin-left: 10% ; font-size: 18x; font-weight: bold;}
+body{margin-bottom: 10%; background-image: url(https://wallpapercave.com/wp/wp2848555.jpg);}
+.exp{font-family: Parchment; font-size: 80px; color: rgb(255, 217, 2);}
+.imgleft{position: absolute; margin-left: 60%; height: 45%; border: 1px white solid;}
