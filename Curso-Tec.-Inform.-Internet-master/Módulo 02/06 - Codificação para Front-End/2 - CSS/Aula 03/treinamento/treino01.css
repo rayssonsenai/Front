@@ -9,14 +9,11 @@
     padding: 20px;
 }
 .center{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     border:solid rgb(146, 146, 146);
     border-top-width: 20px;
     border-right-width: 40px;
     border-left-width: 40px;
     width: fit-content;
-    margin: 0 auto;
-
+    margin: auto;
 }
