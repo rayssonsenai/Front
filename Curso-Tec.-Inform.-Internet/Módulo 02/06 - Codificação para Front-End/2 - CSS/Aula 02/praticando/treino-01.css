@@ -1,7 +1,0 @@
-h1{color: rgb(142, 142, 255);}
-span{border: 1px solid; border-color: rgb(81, 93, 253);} */
-.txt01{ color: rgb(255, 52, 52);}
-.txt02{ color: rgb(255, 0, 85);}
-.txt03{color: palevioletred;}
-.lista{ /*align-self: center*/column-gap: 10px ; border: 1px solid ; color: aqua; width: fit-content; padding: 5px;}
-body{ display: flex; flex-direction: column; align-items: center;}
