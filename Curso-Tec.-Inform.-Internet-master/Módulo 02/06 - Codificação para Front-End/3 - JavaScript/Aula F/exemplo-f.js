@@ -3,4 +3,4 @@ let pessoas= [
     {"nome":"Sheila","idade":36,"etnia":"afrodencendente"},
     {"nome":"Gabriel","idade":29,"etnia":"Branco"}
 ]
-alert(pessoas[1].etnia)
+alert(pessoas[1].etnia) 
