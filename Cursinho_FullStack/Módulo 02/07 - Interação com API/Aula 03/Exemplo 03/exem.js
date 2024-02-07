@@ -5,8 +5,10 @@ async function nnvi() {
     alert(tbmnsei)
     document.getElementById('vaiaki').textContent=tbmnsei
     document.getElementById("vaiaki").style.color='white'
+    document.getElementById("imga").textContent="tbmnsei"
+    document.getElementById("imga").style.backgroundColor='white'
 }  
-nnvi()
-function name(params) {
+function img() {
+    document.getElementById("img").src="https://th.bing.com/th/id/OIP.Wt3xO8rKG6zpWowVd3XhUAHaGV?rs=1&pid=ImgDetMain"
     
 }

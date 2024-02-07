@@ -1,0 +1,20 @@
+.mn{
+    color: greenyellow;
+    background-color: rgb(27, 6, 102);
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.bk{
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin: 80px
+}
+.bbk{
+    background-color: black;
+}
