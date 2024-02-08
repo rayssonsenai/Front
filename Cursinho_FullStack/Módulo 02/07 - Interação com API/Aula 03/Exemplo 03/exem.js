@@ -5,7 +5,7 @@ async function nnvi() {
     alert(tbmnsei)
     document.getElementById('vaiaki').textContent=tbmnsei
     document.getElementById("vaiaki").style.color='white'
-    document.getElementById("imga").textContent="tbmnsei"
+    document.getElementById("imga").textContent='"tbmnsei"'
     document.getElementById("imga").style.backgroundColor='white'
 }  
 function img() {
