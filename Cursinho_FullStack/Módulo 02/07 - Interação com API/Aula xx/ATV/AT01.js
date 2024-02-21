@@ -6,8 +6,8 @@ async function nsei() {
     let cl = await lookagain.json()
 
     for (let c in cl){
-    document.body.innerHTML+=`<h1 style:"color: ${cl[c]}">${cont[c]}</h1>`
+    document.body.innerHTML+=`<h1 style="color: ${cl[c]};">${cont[c]}</h1>`
     
-}
+    }
 }
 nsei()
