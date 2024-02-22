@@ -1,0 +1,8 @@
+[
+    {"plataforma":"Desktop","marca":"Toshiba","cpu":"intel Celeron 230","ram":"4gb","valor":"R$1899,99"},
+    {"plataforma":"Laptop","marca" :"Samsung","cpu":"i5 4600U","ram":"4gb","valor":"R$22600,00"},
+    {"plataforma":"Laptop","marca" :"Positivo","cpu":"Celeron N2808","ram":"8gb","valor":"R$26300,00"},
+    {"plataforma":"Desktop","marca" :"Apple","cpu":"M2 PRO","ram":"48Gb","valor":"R$66200,00"},
+    {"plataforma":"Laptop","marca" :"Apple","cpu":"M1","ram":"16gb","valor":"R$28390,00"},
+    {"plataforma":"Desktop","marca" :"Asus","cpu":"i9 12900k","ram":"32gb","valor":"R$12600,00"}
+]
