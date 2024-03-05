@@ -7,7 +7,7 @@ async function dnvnsei(){
     for(let xyz of achou){
         vaila.innerHTML+=
             `<div class="anc">
-                <img src=${xyz.img} width=auto height=400px>
+                <img src=${xyz.img} width=auto height=400px height=auto>
                 <h2>${xyz.modelo}</h1>
                 <p>${xyz.marca}</p>
                 <p>Ano: ${xyz.ano}</p>
