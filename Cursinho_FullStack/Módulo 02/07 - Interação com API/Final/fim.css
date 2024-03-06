@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(124, 0, 0);
     background-image: url(https://th.bing.com/th/id/OIP.I0SVZLPP9r8QSAFtgJuC9AHaF7?rs=1&pid=ImgDetMain);
@@ -8,12 +7,14 @@ body{
     border: 2px rgb(42, 97, 129) solid;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    row-gap:100px;
+    column-gap:100px;
     padding: 20px;
     background-color: rgba(0, 42, 77, 0.911);
     border-radius: 12px;
-    align-content: center;
+    margin: 0px;
     padding: 60px 20px 80px 20px;
+    justify-content: center;
 }    
 .anc{
     border: 20px rgb(194, 255, 255) groove;
@@ -23,14 +24,18 @@ body{
     flex-direction: column;
     background-color: aliceblue;
     color: darkblue;
-    margin: auto;
+    box-shadow: black 13px 15px 25px 6px;
     
 }
 .tt{
+    font-size: 40px;
     border: 1px solid rgb(160, 0, 0) ;
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.719);
     border-radius: 6px;
     padding: 0px 6px 0px 6px;
 
+}
+img{    
+    border-radius: 16px;
 }
