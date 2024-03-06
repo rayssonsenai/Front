@@ -11,7 +11,7 @@ async function dnvnsei(){
                 <h2>${xyz.modelo}</h1>
                 <p>${xyz.marca}</p>
                 <p>Ano: ${xyz.ano}</p>
-                <p>R$ ${xyz.valor.toFixed(2)}</p>
+                <p>R$ ${xyz.valor.toFixed(2).replace(".",",")}</p>
             </div>`
     }
 }
