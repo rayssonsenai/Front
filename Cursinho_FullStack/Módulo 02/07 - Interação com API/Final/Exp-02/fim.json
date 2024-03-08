@@ -1,0 +1,34 @@
+[
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "cor": "Branco",
+      "valor":127513,
+      "img":"https://vehiclecolors.com/wp-content/uploads/2019/09/Toyota-Corolla-Hatchback-Blizzard-Pearl-.jpg"
+    },
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2021,
+      "cor": "Preto",
+      "valor":127513,
+      "img":"https://1.bp.blogspot.com/-cRMA3aVxlKg/X4DYKgGb5DI/AAAAAAAAkI8/W7dI6DD4L1UwMDCvJH7Q8Bq1Po5YpYsegCLcBGAsYHQ/s2048/Honda-Civic-2021%2B%25285%2529.jpeg"
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "ano": 2022,
+      "cor": "Azul",
+      "valor":99496,
+      "img":"https://s7d1.scene7.com/is/image/hyundai/2022-elantra-se-intense-blue-centered-browse-hero:Browse?fmt=png-alpha"
+    },
+    {
+      "marca": "Chevrolet",
+      "modelo": "Equinox Premier",
+      "ano": 2024,
+      "cor": "Vermelho",
+      "valor":211319,
+      "img":"https://www.equinoxevforum.com/attachments/radiant-red-metallic-chevy-equinox-ev-png.74/"
+    }
+]

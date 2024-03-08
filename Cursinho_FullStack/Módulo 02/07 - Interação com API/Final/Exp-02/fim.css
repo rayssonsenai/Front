@@ -1,0 +1,37 @@
+.lc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cc{
+    font-family: "Magneto";
+    background-color: rgba(255, 228, 196, 0.527);
+    border: 6px black ridge;
+    width: fit-content;
+    padding: 10px;
+    text-align:left;
+    margin: auto;
+    box-shadow: black 10px 10px 10px 2px;
+}
+.tt{
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    font-size: 60px;
+    font-family: "Old English Text MT";
+    color: rgba(255, 163, 51, 0.808);
+}
+body{
+    background-image:url(https://www.2008php.com/2011_Website_appreciate/2011-09-03/20110903010535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar{
+    border-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.349); 
+    width: auto;
+    height: 20px;
+}
+img{
+    border-radius: 10px;
+    background-color: white;
+}
