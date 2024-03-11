@@ -5,7 +5,7 @@
       "ano": 2020,
       "cor": "Branco",
       "valor":127513,
-      "img":"https://vehiclecolors.com/wp-content/uploads/2019/09/Toyota-Corolla-Hatchback-Blizzard-Pearl-.jpg"
+      "img":"https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/mBFi9OSLIrNDpLgXjNtyRc4l6T2P3Q2Icp8qS3FdhTpIZtsF8zOdpq3oMN5bMnOMd9nuLJjeICsOaFr58HNQYi6jKqM58y9YPJLQlFcLZg_HZvc5CP5e90AOXfiDBSQGcoa4rz3di_zl1GIo6URmYRAKaIHdtxKf3Gkf-Aax-MSkTMpaB1FquQ/cc_2024TOC350001_01_640_040.png"
     },
     {
       "marca": "Honda",
@@ -30,5 +30,37 @@
       "cor": "Vermelho",
       "valor":211319,
       "img":"https://www.equinoxevforum.com/attachments/radiant-red-metallic-chevy-equinox-ev-png.74/"
-    }
+    },
+    {
+      "marca": "Mitsubishi",
+      "modelo": "Eclipse Cross HPE-S",
+      "ano": 2024,
+      "cor": "Prata",
+      "valor":195061,
+      "img":"https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2022/mitsubishi/eclipse-cross/es-s-awc/suv/exteriorColors/2022_mitsubishi_eclipse-cross_es_032_u17.png"
+    },
+    {
+      "marca": "BMW",
+      "modelo": "320iA",
+      "ano": 2019,
+      "cor": "Preto",
+      "valor":192791,
+      "img":"https://motorsplus.com/photos/2017/01/chrome-image-386501.png"
+    },
+    {
+      "marca": "BMW",
+      "modelo": "Mini Cooper 2.0",
+      "ano": 2021,
+      "cor": "Verde",
+      "valor":168279,
+      "img":"https://carwow-uk-0.imgix.net/model-photos/original/mini_18hardtopcooperha3re_lowaggressive_british-racing-green.png?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=1366"
+    },    
+    {
+      "marca": "Ford ",
+      "modelo": "Mustang Mach-E GT",
+      "ano": 2024,
+      "cor": "Turquesa",
+      "valor":456287,
+      "img":"https://th.bing.com/th/id/OIP.JwQsn6pLeKhfRvxAY0aW8wHaEG?rs=1&pid=ImgDetMain"
+    }   
 ]

@@ -5,15 +5,16 @@ async function eunsei(){
     let x=document.getElementById("esse")
 
     for(let z of eutbmnsei){
+
         x.innerHTML+=
         `
         <div class="cc">
-        <img src="${z.img}" width=400 height=200>
+        <img src="${z.img}" width=400 height=220>
         <h2>${z.modelo}</h2>
         <p>${z.marca}</p>
         <p>${z.cor}</p>
         <p>${z.ano}</p>        
-        <p>R$ ${z.valor.toFixed(2).replace(".",",")}</p>
+        <p>R$ ${z.valor.toLocaleString('pt-BR', {minimumFractionDigits:2})}</p>
         </div>
         `
     }

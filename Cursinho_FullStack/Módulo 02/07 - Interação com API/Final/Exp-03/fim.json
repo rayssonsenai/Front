@@ -1,0 +1,29 @@
+[
+    {
+        "nome":"Açúca",
+        "descricao":"Pacote de açúca 200gm",
+        "vcd":6,
+        "vsd":7
+    },
+
+    {
+        "nome":"Café",
+        "descricao":"Pacote de Café 100gm",
+        "vcd":7,
+        "vsd":9
+    },
+
+    {
+        "nome":"Queijo",
+        "descricao":"Fatia de queijo de 200gm",
+        "vcd":20,
+        "vsd":23
+    },
+
+    {
+        "nome":"Mantega",
+        "descricao":"Mantega de 400gm",
+        "vcd":14,
+        "vsd":16
+    }
+]
