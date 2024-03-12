@@ -11,8 +11,10 @@ async function ns(){
         <div class = "cd">
             <h1>${acho[x].nome}</h1>
             <p>${acho[x].descricao}</p>
+            <div class= "vl">
             <p>R$ ${acho[x].vsd.toFixed(2)}</p>
             <p>R$ ${acho[x].vcd.toFixed(2)}</p>
+            </div>
         </div>
         `
     }
