@@ -9,11 +9,13 @@ async function ns(){
         z.innerHTML+=
         `
         <div class = "cd">
+            <img src="${acho[x].img}">
             <h1>${acho[x].nome}</h1>
             <p>${acho[x].descricao}</p>
             <div class= "vl">
-            <p>R$ ${acho[x].vsd.toFixed(2)}</p>
-            <p>R$ ${acho[x].vcd.toFixed(2)}</p>
+            <span class="vcd">R$ ${acho[x].vcd.toFixed(2).replace(".",",")}</span>
+            <span class="vsd">R$ ${acho[x].vsd.toFixed(2).replace(".",",")}</span>
+            
             </div>
         </div>
         `
