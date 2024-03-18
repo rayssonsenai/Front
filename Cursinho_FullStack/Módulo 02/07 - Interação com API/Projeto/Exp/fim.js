@@ -8,7 +8,7 @@ async function ns(){
     for( let x in acho){
         z.innerHTML+=
         `
-        <div class = "cd">
+        <div class = "cd" data-id="${acho[x].id}">
             <img src="${acho[x].img}">
             <h1>${acho[x].nome}</h1>
             <p>${acho[x].descricao}</p>
@@ -20,5 +20,6 @@ async function ns(){
         </div>
         `
     }
+    let cds = document.getElementsByClassName("cd")
 }
 ns()

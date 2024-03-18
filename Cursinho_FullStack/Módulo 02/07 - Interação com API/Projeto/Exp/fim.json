@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "nome":"Açúca",
         "descricao":"Pacote de açúca 200gm",
         "vcd":6,
@@ -8,6 +9,7 @@
     },
 
     {
+        "id":2,
         "nome":"Café",
         "descricao":"Pacote de Café 1kg",
         "vcd":7,
@@ -16,6 +18,7 @@
     },
 
     {
+        "id":3,
         "nome":"Queijo",
         "descricao":"Fatia de queijo de 200gm",
         "vcd":20,
@@ -24,6 +27,7 @@
     },
 
     {
+        "id":4,
         "nome":"Margarina",
         "descricao":"Margarina de 500gm",
         "vcd":14,
