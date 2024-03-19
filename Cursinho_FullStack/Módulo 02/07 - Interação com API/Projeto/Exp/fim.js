@@ -1,14 +1,12 @@
-// função async para fazer o uso do  await
 async function ns(){
-    // await para (stop) a execução do progama
-    // o resultado do comando fetch().
+
     let verla = await fetch("fim.json")
     let acho = await verla.json()
-    let z=document.getElementById("x")
+    let z = document.getElementById("x")
     for( let x in acho){
         z.innerHTML+=
         `
-        <div class = "cd" data-id="${acho[x].id}">
+        <div class = "cd" class data-id="${acho[x].id}">
             <img src="${acho[x].img}">
             <h1>${acho[x].nome}</h1>
             <p>${acho[x].descricao}</p>
@@ -21,5 +19,13 @@ async function ns(){
         `
     }
     let cds = document.getElementsByClassName("cd")
+    for (let cd of cds){
+        cd.addEventListener("click", vamola)
+    }
 }
 ns()
+function vamola(){
+    alert("(╯‵□′)╯︵┻━┻")
+    let eid = this.getAttribute("data-id")
+    alert(eid)
+}
