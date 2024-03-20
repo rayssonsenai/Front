@@ -25,7 +25,6 @@ async function ns(){
 }
 ns()
 function vamola(){
-    alert("(╯‵□′)╯︵┻━┻")
-    let eid = this.getAttribute("data-id")
-    alert(eid)
+  let eid = this.getAttribute("data-id")
+    window.location.href="details.html?pid="+ eid
 }
