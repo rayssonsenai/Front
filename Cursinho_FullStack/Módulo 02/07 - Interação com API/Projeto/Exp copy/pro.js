@@ -1,6 +1,6 @@
 async function ns(){
 
-    let verla = await fetch("fim.json")
+    let verla = await fetch("pro.json")
     let acho = await verla.json()
     let z = document.getElementById("x")
     for( let x in acho){
@@ -26,5 +26,5 @@ async function ns(){
 ns()
 function vamola(){
     let eid = this.getAttribute("data-id")
-    window.location.href="details.html?produto-id="+eid
+    window.location.href=`details.html?x-id=${eid}`
 }
