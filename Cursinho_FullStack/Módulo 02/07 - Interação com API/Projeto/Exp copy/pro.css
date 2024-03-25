@@ -52,3 +52,69 @@
 body{
     background-color: rgb(28, 0, 54);
 }
+.imgD{
+    width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.lcD{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.864);
+    margin: 30px;
+    border-radius:20px;
+    border: 8px solid gold;
+    border-style:dashed;
+}
+.cdD{
+    display: flex;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 2px;
+    background-color:white;
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px;
+
+
+    border: 4px solid rgb(45, 2, 85);
+
+
+}
+.lftD{
+    font-size: 20px;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    padding: 80px;
+    text-align: left;
+    border-radius: 20px;
+
+    border-left: 4px solid rgb(45, 2, 85);
+}
+.vlD{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 15px;
+
+}
+.vcdD{
+    color: green;
+    font-weight:bold;
+    font-size: 60px;
+         
+}
+.vsdD{
+    color: orangered;
+    font-size: 45px;
+    font-weight:600;
+    text-decoration: line-through;
+}
