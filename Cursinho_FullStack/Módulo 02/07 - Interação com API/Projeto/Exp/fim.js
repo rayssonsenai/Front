@@ -20,13 +20,11 @@ async function ns(){
     }
     let cds = document.getElementsByClassName("cd")
     for (let cd of cds){
-        cd.addEventListener("click", vamola)
+        cd.addEventListener("click", vl)
     }
 }
 ns()
-function vamola(){
+function vl(){
     let eid = this.getAttribute("data-id")
-    console.log(this)
-    console.log(eid)
-    window.location.href="details.html?produto-id="+eid
+    window.location.href="infor.html?x-id="+eid
 }

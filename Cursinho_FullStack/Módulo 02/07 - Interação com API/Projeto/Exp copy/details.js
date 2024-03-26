@@ -1,22 +1,20 @@
 async function bd(){
     let verla = await fetch("pro.json")
-    let achou = await verla.json()
-// Criou um objeto URLseachParams e passou a coleta de parametros da URL nele.
-    let adId = new URLSearchParams(window.location.search)
-// Obiteve o parametro "protudo-id"  e seu valor
-    let id = adId.get("x-id")
-// Criou um avariavel vazia
-    let idc
-// Usou o "for" para percorrer toda a lista de produto JSON
-    for(let _ in achou){
-// Varifica se o ID de cada produto é igual ao ID coletado na URL da pagina do navegador
-        console.log(`O valor de _ é : ${_}`);
+    let achou = await verla.json()    
+    
+    let adId = new URLSearchParams(window.location.search)    // Criou um objeto URLseachParams e passou a coleta de parametros da URL nele.
+    let id = adId.get("x-id")    // Obiteve o parametro "protudo-id"  e seu valor
+
+    let idc    // Criou um avariavel vazia
+
+    for(let _ in achou){     // Usou o "for" para percorrer toda a lista de produto JSON
+        console.log(`O valor de _ é : ${_}`);  
         console.log(`achou[_].id é: ${achou[_].id}`);
         console.log(`O id é: ${id}`);
         console.log(`${achou[_].id}==${id} ?`);
-            if(achou[_].id == id){
-// Atribui à variavel vazia,  o valor de "_", que contem o indice do protudo que corresponde ao ID da URL
-                idc = _
+            if(achou[_].id == id){    // Verifica se o ID de cada produto é igual ao ID coletado na URL da pagina do navegador
+
+                idc = _     // Atribui à variavel vazia,  o valor de "_", que contem o indice do protudo que corresponde ao ID da URL
 
                 console.log("sim");
             
@@ -24,8 +22,9 @@ async function bd(){
                 console.log("não")
         }           
     }
-// Adiciona na Tag Body do HTML, um código HTML concatenado com valores do objeto produto encontrado
-    document.body.innerHTML = `
+
+    document.body.innerHTML = // Adiciona na Tag Body do HTML, um código HTML concatenado com valores do objeto produto encontrado
+    `   
     <div class = "lcD">   
             <div class= "cdD">
                 <img class="imgD" src=${achou[idc].img}>

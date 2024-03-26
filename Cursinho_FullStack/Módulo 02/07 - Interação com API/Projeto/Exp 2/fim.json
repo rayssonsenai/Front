@@ -1,5 +1,6 @@
 [
     {
+        "id":4,
         "nome":"Açúca",
         "descricao":"Pacote de açúca 200gm",
         "vcd":6,
@@ -7,7 +8,8 @@
         "img":"https://cepel.vteximg.com.br/arquivos/ids/155337-410-410/CEPEL_213.jpg"
     },
 
-    {
+    {   
+        "id":3,
         "nome":"Café",
         "descricao":"Pacote de Café 1kg",
         "vcd":7,
@@ -15,7 +17,7 @@
         "img":"https://static.paodeacucar.com/img/uploads/1/716/670716.jpg"
     },
 
-    {
+    {   "id":2,
         "nome":"Queijo",
         "descricao":"Fatia de queijo de 200gm",
         "vcd":20,
@@ -23,7 +25,8 @@
         "img":"https://supernossoio.vtexassets.com/arquivos/ids/159902/Queijo-Gouda-Vigor-200g.jpg?v=637776819737270000"
     },
 
-    {
+    {   
+        "id":1,
         "nome":"Margarina",
         "descricao":"Margarina de 500gm",
         "vcd":14,
