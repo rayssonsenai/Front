@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "nome":"Açúca",
+        "descricao":"Pacote de açúca Petribu 1kg",
+        "vcd":6,
+        "vsd":7,
+        "img":["https://bompreco.vtexassets.com/arquivos/ids/163006/AcucarCristalPetribu1kg.jpg?v=637496174436470000","https://th.bing.com/th/id/OIP.FY6WIIflnjq6wzx55QxIfAHaHa?w=168&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7","https://img.dlwjdh.com/upload/11304/201022/246981d03ff4a159684b0c46275a0a86.jpg"]
+    },
+
+    {
+        "id":2,
+        "nome":"Café",
+        "descricao":"Café Nescafe 200gm",
+        "vcd":7,
+        "vsd":9,
+        "img":["https://static.paodeacucar.com/img/uploads/1/716/670716.jpg","https://cafefazendaalianca.com.br/wp-content/uploads/2022/06/cafe-em-graos-saiba-a-forma-correta-de-moer-seu-cafe-1.jpg","https://reviewcafe.com.br/wp-content/uploads/2020/09/tipos-degraos-de-cafe.jpg"]
+    },
+
+    {
+        "id":3,
+        "nome":"Queijo",
+        "descricao":"Queijo Vigor de 300gm",
+        "vcd":20,
+        "vsd":23,
+        "img":["https://supernossoio.vtexassets.com/arquivos/ids/159902/Queijo-Gouda-Vigor-200g.jpg?v=637776819737270000","https://www.extrabom.com.br/uploads/produtos/350x350/171929_extrabom_queijo-gouda-fracionado-vigor-200g_1.jpg","https://th.bing.com/th/id/R.00f48efda5f4e458d5980270326a2309?rik=iFxObjdmFmFePA&pid=ImgRaw&r=0"]
+    },
+
+    {
+        "id":4,
+        "nome":"Margarina",
+        "descricao":"Margarina Primor de 500gm",
+        "vcd":14,
+        "vsd":16,
+        "img":["https://static0.tiendeo.com.br/upload_articulos/675126/e50ec072-0242-552b-a216-d8ac4eba8caa.jpg","https://amazonasatual.com.br/wp-content/uploads/2023/03/Conar-margarina-primor.jpg","https://images3.alphacoders.com/276/276817.jpg"]
+    }
+]

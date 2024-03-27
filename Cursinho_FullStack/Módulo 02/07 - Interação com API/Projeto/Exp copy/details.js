@@ -2,19 +2,19 @@ async function bd(){
     let verla = await fetch("pro.json")
     let achou = await verla.json()    
     
-    let adId = new URLSearchParams(window.location.search)    // Criou um objeto URLseachParams e passou a coleta de parametros da URL nele.
-    let id = adId.get("x-id")    // Obiteve o parametro "protudo-id"  e seu valor
+    let adId = new URLSearchParams(window.location.search)    
+    let id = adId.get("x-id")    
 
-    let idc    // Criou um avariavel vazia
+    let idc  
 
-    for(let _ in achou){     // Usou o "for" para percorrer toda a lista de produto JSON
+    for(let _ in achou){     
         console.log(`O valor de _ é : ${_}`);  
         console.log(`achou[_].id é: ${achou[_].id}`);
         console.log(`O id é: ${id}`);
         console.log(`${achou[_].id}==${id} ?`);
-            if(achou[_].id == id){    // Verifica se o ID de cada produto é igual ao ID coletado na URL da pagina do navegador
+            if(achou[_].id == id){   
 
-                idc = _     // Atribui à variavel vazia,  o valor de "_", que contem o indice do protudo que corresponde ao ID da URL
+                idc = _    
 
                 console.log("sim");
             
@@ -23,12 +23,13 @@ async function bd(){
         }           
     }
 
-    document.body.innerHTML = // Adiciona na Tag Body do HTML, um código HTML concatenado com valores do objeto produto encontrado
+    document.body.innerHTML += 
     `   
     <div class = "lcD">   
             <div class= "cdD">
                 <img class="imgD" src=${achou[idc].img}>
-                <div class="lftD"> 
+                        <div class = "minimg" id = "minimg"> </div>
+                    <div class="lftD"> 
                     <h1>${achou[idc].nome}</h1>
                     <h4>${achou[idc].descricao}</h4>
                     <div class="vlD">
@@ -38,6 +39,7 @@ async function bd(){
                 </div>
             </div>
     </div>
+    
 `
 }    
 bd()
